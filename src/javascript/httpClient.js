@@ -22,5 +22,5 @@ var request = http.request(options, function (response) {
 });
 // Write the parameters to the HTTP POST.
 request.write(parameters);
-// Close the HTTP connection....
+//Close the HTTP connection.
 request.end();
